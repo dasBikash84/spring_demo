@@ -1,0 +1,21 @@
+= Spring HATEOAS Examples
+
+image:https://travis-ci.org/spring-projects/spring-hateoas-examples.svg?branch=master[Build Status,link=https://travis-ci.org/spring-projects/spring-hateoas-examples]
+
+This repository contains example projects to interact with Spring HATEOAS.
+
+* Learn how to interact with a Spring HATEOAS-powered app, from inside as well as the command line.
+* See how to upgrade a REST resource without having to create new media types, version URIs, etc.
+
+We have separate folders for each of these:
+
+== Spring HATEOAS Modules
+
+* link:basics[Basics] - Poke and prod at a hypermedia-powered service from inside the code as well as externally using standard tools
+* link:simplified[Simplified] - Use Spring HATEOAS in the simplest way possible.
+* link:api-evolution[API Evolution] - Upgrade an existing REST resource
+* link:hypermedia[Hypermedia] - Create hypermedia-driven REST resources, linking them together, and supporting older links.
+* link:affordances[Affordances] - Create richer hypermedia controls using more complex hypermedia formats
+
+NOTE: The master branch tracks Spring HATEOAS 1.0, based upon Spring Boot 2 + Spring Framework 5.
+To see examples depicted against the 0.x branch (Spring 4.x) visit the https://github.com/spring-projects/spring-hateoas-examples/tree/0.x[0.x branch].

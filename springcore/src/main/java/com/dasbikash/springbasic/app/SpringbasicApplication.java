@@ -35,14 +35,13 @@ public class SpringbasicApplication implements CommandLineRunner {
     private String lastName;
 
 
-    @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
     @Autowired
     @Qualifier("testConFromXml")
     public void setTestController(TestController testController) {
         this.testController = testController;
     }
 
-    Logger logger = LoggerFactory.getLogger(this.getClass());
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     public static void main(String[] args) {
         ApplicationContext applicationContext =

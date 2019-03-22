@@ -16,9 +16,9 @@ public class DisplayNamePostProcessor implements BeanPostProcessor {
 
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
-        if (beanName.equals("testCon")) {
-            System.out.println("postProcessAfterInitialization called for bean: " + beanName);
-        }
+        //if (beanName.equals("testCon")) {
+            System.out.println("postProcessAfterInitialization called for bean: "+beanName+" of class:" + bean.getClass().getSimpleName());
+        //}
         return bean;
     }
 }
